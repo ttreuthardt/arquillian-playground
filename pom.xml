@@ -79,12 +79,13 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- Arquillian extensions -->
 		<dependency>
 			<groupId>org.jboss.arquillian.junit</groupId>
 			<artifactId>arquillian-junit-container</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- Arquillian extensions -->
 		<dependency>
 			<groupId>org.jboss.arquillian.extension</groupId>
 			<artifactId>arquillian-persistence-impl</artifactId>
