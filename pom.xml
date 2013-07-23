@@ -91,7 +91,11 @@
 			<artifactId>arquillian-persistence-impl</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+	
+        <dependency>
+            <groupId>org.jboss.shrinkwrap.descriptors</groupId>
+            <artifactId>shrinkwrap-descriptors-impl-javaee</artifactId>
+        </dependency>
 	</dependencies>
 
 	<profiles>
